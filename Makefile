@@ -1,4 +1,4 @@
-p2: main.o intMinHeap.o
+pq: main.o intMinHeap.o
         g++ -o pq main.o intMinHeap.o
 
 main.o: main.cpp
